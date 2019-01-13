@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <!--The viewport will set the width of the template of the website 
+            the width = device-width so it will fit whichever device the user is looking at 
+            (ex: it will fit on a phone if you look at the site from a phone)-->
+        <meta name="author" content="Sauhil Faraz">
+        <meta name="description" content="Affordable and professional web design">
+            <meta name="keywords" content="web design, professional web design, affordable web design">
+        <title>Sauhil Web Design | Welcome</title>
+        <link rel="stylesheet" href="web-style.css">
+        <!-- The above link tag links to the css file so we can use it-->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+<!--an ID is normally used for something unique, used only once 
+    while a class is something that's used over and over-->
+<!--people classify things as class or id based on preference tho, everyone is different-->
+                <div id="branding">
+                    <h1><span class="highlight">Sauhil's</span> Web Design</h1> <!--span is an inline element meaning whatever is inside it will NOT go to the next line-->
+                </div>
+            <nav> <!--the nav tag is strictly for HTML5-->
+                <ul> <!--this ul tag is used for an unorderd list-->
+                    <li class="current"><a href="website.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="container"> <!--We are using the class container again bc we want the id showcase to be in the middle of the page-->
+                <h1>My E-Portfolio</h1>
+                <p>Welcome to my E-Portfolio. I hope you enjoy!</p>
+            </div> 
+        </section>
+
+        <section id="newsletter">
+            <div class="container"> <!--Notice how we use the class container multiple times but we don't reuse any ID's-->
+                <h1>Enjoy my projects!</h1>
+                <form>
+                    <input type="email" placeholder="Enter your e-maiL down below">  <!--The placeholder puts the text "enter your email down below IF there's nothing appearing in the form-->
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="https://usatftw.files.wordpress.com/2017/01/instaface.jpg">
+                    <h3>Game Design</h3>
+                    <p>Games that I've created!</p>
+                </div>
+                <div class="box">
+                        <img src="https://usatftw.files.wordpress.com/2017/01/snapface.jpg">
+                        <h3>Web Design</h3>
+                        <p>Websites that I've created!</p>
+                    </div>
+                <div class="box">
+                        <img src="https://usatftw.files.wordpress.com/2017/01/instachat.jpg">
+                        <h3>Other Design</h3>
+                        <p>Other designs that I've created!</p>
+                    </div>                   
+            </div>
+        </section>
+
+        <footer>
+            <p>Sauhil Web Design, Copyright &copy; 2019</p>
+        </footer>
+
+    </body>
+</html>
