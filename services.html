@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <!--The viewport will set the width of the template of the website 
+            the width = device-width so it will fit whichever device the user is looking at 
+            (ex: it will fit on a phone if you look at the site from a phone)-->
+        <meta name="author" content="Sauhil Faraz">
+        <meta name="description" content="Affordable and professional web design">
+            <meta name="keywords" content="web design, professional web design, affordable web design">
+        <title>Sauhil Web Design |  Services</title>
+        <link rel="stylesheet" href="web-style.css">
+        <!-- The above link tag links to the css file so we can use it-->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+<!--an ID is normally used for something unique, used only once 
+    while a class is something that's used over and over-->
+<!--people classify things as class or id based on preference tho, everyone is different-->
+                <div id="branding">
+                    <h1><span class="highlight">Sauhil's</span> Web Design</h1> <!--span is an inline element meaning whatever is inside it will NOT go to the next line-->
+                </div>
+            <nav> <!--the nav tag is strictly for HTML5-->
+                <ul> <!--this ul tag is used for an unorderd list-->
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+
+        <section id="newsletter">
+            <div class="container"> <!--Notice how we use the class container multiple times but we don't reuse any ID's-->
+                <h1>Enjoy my projects!</h1>
+                <form>
+                    <input type="email" placeholder="Enter your e-maiL down below">  <!--The placeholder puts the text "enter your email down below IF there's nothing appearing in the form-->
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="main">
+            <div class="container">
+                <article id="main-col">
+                    <h1 class="page-title">Services</h1>
+                        <ul id="services">
+                            <li>
+                                <h3>Website Design</h3>
+                                <p>I code and program and want to do animation and make nintendo video games!</p>
+                                <p>I would love to work for Disney, Facebook, Google, live in a big city, and travel a lot!</p>
+                                <p>Pricing: FREE! I'm a student at the University of Virginai!</p>
+                            </li>
+                            <li>
+                                <h3>Website Maintence</h3>
+                                <p>I code and program and want to do animation and make nintendo video games!</p>
+                                <p>I would love to work for Disney, Facebook, Google, live in a big city, and travel a lot!</p>
+                                <p>Pricing: FREE (for now)! I'm a student at the University of Virginai!</p>
+                            </li>
+                            <li>
+                                <h3>Website Hosting</h3>
+                                <p>I code and program and want to do animation and make nintendo video games!</p>
+                                <p>I would love to work for Disney, Facebook, Google, live in a big city, and travel a lot!</p>
+                                <p>Pricing: N/A! I'm a student at the University of Virginai!</p>
+                            </li>                               
+                        </ul>
+                </article>
+
+                <aside id="sidebar">
+                    <div class="dark">
+
+                            <h3>Have any questions? Email me!</h3>
+                            <form class="quote">
+                                <div>
+                                    <label>Name</label><br> <!--not sure what the br tag does-->
+                                    <input type="text" placeholder ="Name">
+                                </div>
+                                <div>
+                                    <label>Email</label><br>
+                                    <input type="text" placeholder ="Email Address">
+                                </div>
+                                <div>
+                                        <label>Message</label><br>
+                                        <textarea placeholder="Message"></textarea>
+                                    </div>    
+                                  <button class="button_1" type="submit">Send</button>                     
+                            </form>
+                        </div>
+                    </aside>
+                         
+                </div>
+            </section>
+
+        <footer>
+            <p>Sauhil Web Design, Copyright &copy; 2019</p>
+        </footer>
+
+    </body>
+</html>
