@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
     font-size: 15px;
-    line-height: 1.5;   /*this is the amount of space between each line
+    line-height: 1.5;       /*this is the amount of space between each line
                             also you can do font: 15px, 1.5, sans-serif; and it will do
                             font-size, line-height, and font-family respectivelt in one line*/
     background: #f4f4f4;
@@ -15,7 +15,10 @@ body{
     overflow:hidden; /*not sure what this is for */
 }
 
-ul{ /* we are just naming it ul because it is for anything that's labeled or within the ul tag in our HTML document */ 
+/* we are just naming it ul because it is for anything that's 
+labeled or within the ul tag in our HTML document */ 
+
+ul{ 
     margin: 0;
     padding: 0;
 } 
@@ -52,7 +55,9 @@ header a{
     font-size:16px;
 }
 
-header li{ /* we call it header li because this is for the list items (home, about, services) themselves */
+/* we call it header li because this is for the list items (home, about, services) themselves */
+
+header li{ 
     display: inline;
     padding: 0 20px 0 20px /* padding goes top, right, bottom, left in that order */
 }
@@ -84,7 +89,7 @@ header a:hover{
 
 #showcase{
     min-height: 400px;
-    background: black; /* for more info on how to use an actual image instead of a color, go to 34 minutes on the video tutorial */
+    background: black; 
     color: white;
     text-align: center;
 }
@@ -152,7 +157,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     padding: 5px;
 }
 
-/*below is for main-col (a.k.a main coloumn) ...to get a main column on the left side of the about page */
+/*below is for main-col (main coloumn) ...to get a main column on the left side of the about page */
 article#main-col{
     float:left;
     width: 65%;
